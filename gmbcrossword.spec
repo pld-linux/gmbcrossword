@@ -1,5 +1,5 @@
 Summary:	gmbCrossword - making crosswords
-Summary(pl):	gmbCrossword - tworzenie krzyøÛwek
+Summary(pl.UTF-8):   gmbCrossword - tworzenie krzy≈º√≥wek
 Name:		gmbcrossword
 Version:	0.7
 Release:	0.1
@@ -17,13 +17,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 gmbCrossword is an application for making Swedish type crosswords. It
 is written in Gambas and has support for word lookup in databases.
 
-%description -l pl
-gmbCrossword jest aplikacj± s≥uø±c± do robienia krzyøÛwek. Zosta≥a
-napisana w Gambasie i wspiera wyszukiwanie s≥Ûw w bazach danych.
+%description -l pl.UTF-8
+gmbCrossword jest aplikacjƒÖ s≈Çu≈ºƒÖcƒÖ do robienia krzy≈º√≥wek. Zosta≈Ça
+napisana w Gambasie i wspiera wyszukiwanie s≈Ç√≥w w bazach danych.
 
 %package words
 Summary:	gmbCrossword - base wordlists
-Summary(pl):	gmbCrossword - podstawowa lista s≥Ûw
+Summary(pl.UTF-8):   gmbCrossword - podstawowa lista s≈Ç√≥w
 Group:		X11/Applications
 Requires:	%{name} = %{version}-%{release}
 
@@ -34,11 +34,11 @@ words) to keep the filesize down but it is easy to import new words. I
 also have a bigger Swedish file (>200000 words) but it is not
 currently in the distribution.
 
-%description words -l pl
-Tutaj znajduj± siÍ bazy s≥Ûw dla jÍzyka angielskiego, szwedzkiego oraz
-wyraøeÒ komputerowych. S± do∂Ê ma≥e (10000-20000 s≥Ûw), aby utrzymaÊ
-ma≥y rozmiar pliku dystrybucyjnego, ale ≥atwo dodawaÊ nowe s≥owa.
-Autor dysponuje wiÍkszym plikiem s≥ownika szwedzkiego (>200000 s≥Ûw),
+%description words -l pl.UTF-8
+Tutaj znajdujƒÖ siƒô bazy s≈Ç√≥w dla jƒôzyka angielskiego, szwedzkiego oraz
+wyra≈ºe≈Ñ komputerowych. SƒÖ do≈õƒá ma≈Çe (10000-20000 s≈Ç√≥w), aby utrzymaƒá
+ma≈Çy rozmiar pliku dystrybucyjnego, ale ≈Çatwo dodawaƒá nowe s≈Çowa.
+Autor dysponuje wiƒôkszym plikiem s≈Çownika szwedzkiego (>200000 s≈Ç√≥w),
 ale nie jest on aktualnie dystrybuowany.
 
 %prep
