@@ -1,5 +1,5 @@
 Summary:	gmbCrossword - making crosswords
-Summary(pl.UTF-8):   gmbCrossword - tworzenie krzyżówek
+Summary(pl.UTF-8):	gmbCrossword - tworzenie krzyżówek
 Name:		gmbcrossword
 Version:	0.7
 Release:	0.1
@@ -23,7 +23,7 @@ napisana w Gambasie i wspiera wyszukiwanie słów w bazach danych.
 
 %package words
 Summary:	gmbCrossword - base wordlists
-Summary(pl.UTF-8):   gmbCrossword - podstawowa lista słów
+Summary(pl.UTF-8):	gmbCrossword - podstawowa lista słów
 Group:		X11/Applications
 Requires:	%{name} = %{version}-%{release}
 
